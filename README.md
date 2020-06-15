@@ -1,8 +1,6 @@
-# Content
+# Quotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
-
-# Angular Core Concepts
 
 This project shows several core features of Angular including:
 
