@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Cute+Font|MuseoModerno");
 @import url("https://fonts.googleapis.com/css?family=Pacifico");
 body{
-   background: linear-gradient(to left,#F09819,#EDDE5D);  
+   background: linear-gradient(to left,#3CA55C,#B5AC49);  
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -12,11 +12,13 @@ body{
 
 .create{
     font-family: 'Pacifico', Courier, monospace;
-    font-size: 15px;
+    font-size: 30px;
     margin-top: 5px;
     color: white;
 }
-
+#creat{
+    margin-top: 50px;
+}
 .create, h3, h2, h4{
     font-family: 'MuseoModerno', Courier, monospace;
 } 
