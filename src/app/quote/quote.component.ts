@@ -9,10 +9,10 @@ import { Form } from '@angular/forms';
 }) 
   
   export class QuoteComponent implements OnInit { 
-    quotes = [ new Quote("Raha jipe mwenyewe", "Anonymous", "Ninah", 0, 0, new Date(2020,6,13)),
-     new Quote("Stop killing us, our lives matter", "BLM", "User1", 0, 0, new Date(2020,6,4)), 
-     new Quote("Tout est beau tant que tu l'impose", "Willy William", "Mozzy", 0, 0, new Date(2018,7,21)), 
-     new Quote("Inauma but itabidi uzoee", "Simple Boy", "Stivo", 0, 0, new Date(2019,8,10)) 
+    quotes = [ new Quote("The purpose of our lives is to be happy.", "OG", "Bryson", 0, 0, new Date(2020,6,13)),
+     new Quote(" Life is what happens when you're busy making other plans.", "John Lennon", "User1", 0, 0, new Date(2020,6,4)), 
+     new Quote("Get busy living or get busy dying.", "Stephen King", "OG", 0, 0, new Date(2018,7,21)), 
+     new Quote("You only live once, but if you do it right, once is enough.", "Mae West", "Johny", 0, 0, new Date(2019,8,10)) 
     ];
     
     constructor() {} 
@@ -34,22 +34,22 @@ import { Form } from '@angular/forms';
       }
          onSave() 
          { if (this.submitType === 'save')
-          { this.quotes.push(this.quoteModel); 
-          }
-           this.showNew = false;
-           }
-            onCancel() 
-           { this.showNew = false;
-           } 
-           delete(i) 
-           { this.quotes.splice(i, 1);
-           } 
-           addNewQuote(quote)
-           { let quoteLength = this.quotes.length; 
-            quote.id = quoteLength+1;
-            quote.completeDate = new Date(quote.completeDate) 
-            this.quotes.push(quote) } ngOnInit(): void { 
-            } } 
+            { this.quotes.push(this.quoteModel); 
+            }
+            this.showNew = false;
+            }
+             onCancel() 
+            { this.showNew = false;
+             } 
+             delete(i) 
+             { this.quotes.splice(i, 1);
+             } 
+             addNewQuote(quote){ 
+             let quoteLength = this.quotes.length; 
+              quote.id = quoteLength+1;
+               quote.completeDate = new Date(quote.completeDate) 
+              this.quotes.push(quote) } ngOnInit(): void { 
+            }} 
       
 
       
