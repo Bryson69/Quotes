@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+/*  */
+@import url("https://fonts.googleapis.com/css?family=Cute+Font|MuseoModerno");
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+body{
+   background: linear-gradient(to left,#F09819,#EDDE5D);  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}  
+
+.create{
+    font-family: 'Pacifico', Courier, monospace;
+    font-size: 15px;
+    margin-top: 5px;
+    color: white;
+}
+
+.create, h3, h2, h4{
+    font-family: 'MuseoModerno', Courier, monospace;
+} 
+
