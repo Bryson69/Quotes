@@ -1,3 +1,9 @@
 <p>{{quote.name}}</p>
-<button (click)= 'quoteComplete(true)'>Complete</button>
+<p>{{quote.Author}}</p>
+<p>{{quote.quote}}</p>
+<p>Upvote:{{quote.upvote}}</p>
+<button type="button" class="btn btn-warning" (click)='upvote()'>Upvote</button>  
+<p>Downvote:{{quote.downvote}}</p>
+<button type="button" class="btn btn-primary" (click)='downvote()'>Downvote</button>
+<button (click)='quoteComplete(true)' class="btn btn-danger">Delete</button>
 <p>This goal will be complete in {{quote.completeDate|dateCount}}days</p>
