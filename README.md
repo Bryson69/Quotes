@@ -1,5 +1,8 @@
 # Quotes
-Biult by - Bryson Mundia:sunglasses:
+Biult by - Bryson Mundia.
+
+###Link to Site ---> https://bryson69.github.io/Quotes/.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
 
