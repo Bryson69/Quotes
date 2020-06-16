@@ -1,7 +1,7 @@
 # Quotes
 Biult by - Bryson Mundia.😎 
 
- # Link to live site 
+ ### Link to live site 
  https://bryson69.github.io/Quotes/.
 
 
