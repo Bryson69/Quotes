@@ -13,12 +13,10 @@ body{
 .create{
     font-family: 'Pacifico', Courier, monospace;
     font-size: 30px;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     color: white;
 }
-#creat{
-    margin-top: 50px;
-}
+
 .create, h3, h2, h4{
     font-family: 'MuseoModerno', Courier, monospace;
 } 
