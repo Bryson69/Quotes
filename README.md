@@ -5,6 +5,8 @@ Biult by - Bryson Mundia.😎
  https://bryson69.github.io/Quotes/.
 
 
+## Used
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
 
 This project shows several core features of Angular including:
